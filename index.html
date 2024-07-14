@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Application</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customer CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <!-- Hero Section -->
+      <section class="row p-4 align-items-center" id="hero">
+        <div class="p-0 col-md-8 d-flex flex-column justify-content-around">
+          <div class="mr-5">
+            <h4 class="title mb-3">AWARD WINNING</h4>
+            <h1 class="heading_big mb-4">DIGITAL MARKETING AGENCY</h1>
+            <p>
+              Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+              Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed
+              lacus nec risus finibus feugiat et fermentum.
+            </p>
+          </div>
+          <button
+            id="contactUsButton"
+            class="btn btn-pink mr-auto px-3 py-2"
+            style="font-size: 0.7rem"
+          >
+            CONTACT US
+          </button>
+        </div>
+        <div class="p-0 col-md-4 d-flex align-items-center">
+          <img src="assets/hero.png" class="img-fluid" alt="Hero" />
+        </div>
+      </section>
+
+      <!-- What we do Section -->
+      <section id="whatWeDo">
+        <div class="row mb-5">
+          <div class="col-12 mb-2">
+            <h4 class="title">WHAT WE DO</h4>
+          </div>
+          <div class="col-12 d-flex">
+            <h2 class="heading">SERVICES PROVIDE FOR YOU</h2>
+            <p style="padding-left: 4rem">
+              Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+              Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed
+              lacus nec risus finibus feugiat et fermentum
+            </p>
+          </div>
+        </div>
+
+        <!-- Section with Carousel -->
+        <div id="whatWeDoCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-around">
+                <div class="position-relative mx-2">
+                  <img src="assets/1.png" alt="Image 1" class="img-fluid" />
+                  <div class="hover-overlay">
+                    <img src="assets/icon.png" alt="Icon" class="mr-2" />
+                    <h4>WEB DEVELOPMENT</h4>
+                    <p>
+                      Morbi sed lacus nec risus finibus feugiat et fermentum
+                      nibh. Pellentesque
+                    </p>
+                    <a
+                      class="btn btn-custom"
+                      href="https://www.fylehq.com/"
+                      target="_blank"
+                    >
+                      READ MORE
+                      <img src="assets/arrow.png" alt="Icon" class="mr-2" />
+                    </a>
+                  </div>
+                </div>
+                <div class="position-relative mx-2">
+                  <img src="assets/2.png" alt="Image 2" class="img-fluid" />
+                  <div class="hover-overlay">
+                    <img src="assets/icon.png" alt="Icon" class="mr-2" />
+                    <h4>WEB DEVELOPMENT</h4>
+                    <p>
+                      Morbi sed lacus nec risus finibus feugiat et fermentum
+                      nibh. Pellentesque
+                    </p>
+                    <a
+                      class="btn btn-custom"
+                      href="https://www.fylehq.com/"
+                      target="_blank"
+                    >
+                      READ MORE
+                      <img src="assets/arrow.png" alt="Icon" class="mr-2" />
+                    </a>
+                  </div>
+                </div>
+                <div class="position-relative mx-2">
+                  <img src="assets/3.png" alt="Image 3" class="img-fluid" />
+                  <div class="hover-overlay">
+                    <img src="assets/icon.png" alt="Icon" class="mr-2" />
+                    <h4>WEB DEVELOPMENT</h4>
+                    <p>
+                      Morbi sed lacus nec risus finibus feugiat et fermentum
+                      nibh. Pellentesque
+                    </p>
+                    <a
+                      class="btn btn-custom"
+                      href="https://www.fylehq.com/"
+                      target="_blank"
+                    >
+                      READ MORE
+                      <img src="assets/arrow.png" alt="Icon" class="mr-2" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-flex justify-content-around">
+                <div class="position-relative mx-2">
+                  <img src="assets/1.png" alt="Image 1" class="img-fluid" />
+                  <div class="hover-overlay">
+                    <img src="assets/icon.png" alt="Icon" class="mr-2" />
+                    <h4>WEB DEVELOPMENT</h4>
+                    <p>
+                      Morbi sed lacus nec risus finibus feugiat et fermentum
+                      nibh. Pellentesque
+                    </p>
+                    <a
+                      class="btn btn-custom"
+                      href="https://www.fylehq.com/"
+                      target="_blank"
+                    >
+                      READ MORE
+                      <img src="assets/arrow.png" alt="Icon" class="mr-2" />
+                    </a>
+                  </div>
+                </div>
+                <div class="position-relative mx-2">
+                  <img src="assets/2.png" alt="Image 2" class="img-fluid" />
+                  <div class="hover-overlay">
+                    <img src="assets/icon.png" alt="Icon" class="mr-2" />
+                    <h4>WEB DEVELOPMENT</h4>
+                    <p>
+                      Morbi sed lacus nec risus finibus feugiat et fermentum
+                      nibh. Pellentesque
+                    </p>
+                    <a
+                      class="btn btn-custom"
+                      href="https://www.fylehq.com/"
+                      target="_blank"
+                    >
+                      READ MORE
+                      <img src="assets/arrow.png" alt="Icon" class="mr-2" />
+                    </a>
+                  </div>
+                </div>
+                <div class="position-relative mx-2">
+                  <img src="assets/3.png" alt="Image 3" class="img-fluid" />
+                  <div class="hover-overlay">
+                    <img src="assets/icon.png" alt="Icon" class="mr-2" />
+                    <h4>WEB DEVELOPMENT</h4>
+                    <p>
+                      Morbi sed lacus nec risus finibus feugiat et fermentum
+                      nibh. Pellentesque
+                    </p>
+                    <a
+                      class="btn btn-custom"
+                      href="https://www.fylehq.com/"
+                      target="_blank"
+                    >
+                      READ MORE
+                      <img src="assets/arrow.png" alt="Icon" class="mr-2" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="d-flex justify-content-around">
+                <div class="position-relative mx-2">
+                  <img src="assets/1.png" alt="Image 1" class="img-fluid" />
+                  <div class="hover-overlay">
+                    <img src="assets/icon.png" alt="Icon" class="mr-2" />
+                    <h4>WEB DEVELOPMENT</h4>
+                    <p>
+                      Morbi sed lacus nec risus finibus feugiat et fermentum
+                      nibh. Pellentesque
+                    </p>
+                    <a
+                      class="btn btn-custom"
+                      href="https://www.fylehq.com/"
+                      target="_blank"
+                    >
+                      READ MORE
+                      <img src="assets/arrow.png" alt="Icon" class="mr-2" />
+                    </a>
+                  </div>
+                </div>
+                <div class="position-relative mx-2">
+                  <img src="assets/2.png" alt="Image 2" class="img-fluid" />
+                  <div class="hover-overlay">
+                    <img src="assets/icon.png" alt="Icon" class="mr-2" />
+                    <h4>WEB DEVELOPMENT</h4>
+                    <p>
+                      Morbi sed lacus nec risus finibus feugiat et fermentum
+                      nibh. Pellentesque
+                    </p>
+                    <a
+                      class="btn btn-custom"
+                      href="https://www.fylehq.com/"
+                      target="_blank"
+                    >
+                      READ MORE
+                      <img src="assets/arrow.png" alt="Icon" class="mr-2" />
+                    </a>
+                  </div>
+                </div>
+                <div class="position-relative mx-2">
+                  <img src="assets/3.png" alt="Image 3" class="img-fluid" />
+                  <div class="hover-overlay">
+                    <img src="assets/icon.png" alt="Icon" class="mr-2" />
+                    <h4>WEB DEVELOPMENT</h4>
+                    <p>
+                      Morbi sed lacus nec risus finibus feugiat et fermentum
+                      nibh. Pellentesque
+                    </p>
+                    <a
+                      class="btn btn-custom"
+                      href="https://www.fylehq.com/"
+                      target="_blank"
+                    >
+                      READ MORE
+                      <img src="assets/arrow.png" alt="Icon" class="mr-2" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-indicators" style="padding-left: 0.5rem">
+            <li
+              data-target="#whatWeDoCarousel"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#whatWeDoCarousel" data-slide-to="1"></li>
+            <li data-target="#whatWeDoCarousel" data-slide-to="2"></li>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Us Section -->
+      <section class="text-center my-5" id="whyChoose">
+        <h4 class="title mb-3">WHY CHOOSE US</h4>
+        <h2 class="heading mb-4">WHY WE ARE BEST</h2>
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-3 mb-4">
+              <div id="card" class="text-center">
+                <div class="card-body text-left">
+                  <i class="fas fa-icon-name mb-3"></i>
+                  <img class="mb-4" src="assets/icon1.png" alt="" />
+                  <h6>Clarified Vision & Target</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div id="card" class="text-center">
+                <div class="card-body text-left">
+                  <i class="fas fa-icon-name mb-3"></i>
+                  <img class="mb-4" src="assets/icon2.png" alt="" />
+                  <h6>High Performance</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div id="card" class="text-center">
+                <div class="card-body text-left">
+                  <i class="fas fa-icon-name mb-3"></i>
+                  <img class="mb-4" src="assets/icon3.png" alt="" />
+                  <h6>Maintain Security</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div id="card" class="text-center">
+                <div class="card-body text-left">
+                  <i class="fas fa-icon-name mb-3"></i>
+                  <img class="mb-4" src="assets/icon4.png" alt="" />
+                  <h6>Better Strategy & Quality</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Project Section -->
+      <section class="text-center my-5" id="ourProject">
+        <h4 class="title mb-3">OUR PROJECT</h4>
+        <h2 class="heading mb-4">WHY WE ARE BEST</h2>
+
+        <div class="container">
+          <div class="row" style="height: max-content">
+            <div class="col-md-6" style="height: 100%">
+              <img
+                id="ourProject_mainImage"
+                src="assets/ourProject1.png"
+                alt="Main Image"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-6" style="height: 100%">
+              <div class="d-flex flex-column h-full gap-3" id="list">
+                <div
+                  class="inner-div p-4 flex-fill"
+                  data-image="assets/ourProject1.png"
+                >
+                  <h5>Genderless Kei – Japan’s Hot</h5>
+                  <p style="font-size: 1rem">
+                    Set to launch on the manufacturer’s new A330neo aircraft in
+                    2017, it’s offering lots of
+                  </p>
+                </div>
+                <div
+                  class="inner-div p-4 flex-fill"
+                  data-image="assets/ourProject2.png"
+                >
+                  <h5>Better Strategy & Quality</h5>
+                  <p style="font-size: 1rem">
+                    Set to launch on the manufacturer’s new A330neo aircraft in
+                    2017, it’s offering lots of
+                  </p>
+                </div>
+                <div
+                  class="inner-div p-4 flex-fill"
+                  data-image="assets/ourProject3.png"
+                >
+                  <h5>Genderless Kei – Japan’s Hot</h5>
+                  <p style="font-size: 1rem">
+                    Set to launch on the manufacturer’s new A330neo aircraft in
+                    2017, it’s offering lots of
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Expert Growts Section -->
+      <section class="text-center my-5" id="growth">
+        <h4 class="title mb-3">EXPERTS GROWTS</h4>
+        <h2 class="heading mb-4">OUR COMPANY GROWTH</h2>
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-3 mb-4">
+              <div class="hover-card text-center">
+                <div class="card-body">
+                  <i class="fas fa-icon-name mb-3"></i>
+                  <img class="mb-4" src="assets/heart.png" alt="" />
+                  <h2>199 +</h2>
+                  <p>Statisfied Customers</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="hover-card text-center">
+                <div class="card-body">
+                  <i class="fas fa-icon-name mb-3"></i>
+                  <img class="mb-4" src="assets/clock.png" alt="" />
+                  <h2>1591 +</h2>
+                  <p>Days Of Operation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="hover-card text-center">
+                <div class="card-body">
+                  <i class="fas fa-icon-name mb-3"></i>
+                  <img class="mb-4" src="assets/check.png" alt="" />
+                  <h2>283 +</h2>
+                  <p>Complete Project</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="hover-card text-center">
+                <div class="card-body">
+                  <i class="fas fa-icon-name mb-3"></i>
+                  <img class="mb-4" src="assets/trophy.png" alt="" />
+                  <h2>75+</h2>
+                  <p>Win Awards</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Clients Feedback Section -->
+      <section class="text-center my-5" id="feedback">
+        <h4 class="title mb-3">CLIENT'S FEEDBACK</h4>
+        <h3 class="heading">PEOPLE SAY'S ABOUT US !</h3>
+
+        <div class="container">
+          <p class="text-left mx-auto mt-5" style="max-width: 45rem">
+            Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s
+            is reproduced below for those interested. Sections Bonorum et
+            Malorum original.
+          </p>
+          <p class="text-left mx-auto" style="max-width: 45rem">
+            <span class="text-pink font-weight-bold">JANNA TUMPA</span>
+            <span style="color: rgb(62, 60, 60)">
+              - COO, AMERIMAR ENTERPRISES, INC.</span
+            >
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer Section -->
+    <section id="footer" class="d-flex justify-content-center">
+      <img src="assets/Group 500.png" alt="" />
+    </section>
+
+    <!-- Contact Us Modal -->
+    <div
+      class="modal fade"
+      id="contactModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="contactModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-3">
+          <div class="modal-header border-0 pb-0">
+            <h5
+              class="modal-title font-weight-bold"
+              style="font-size: 1.5rem"
+              id="contactModalLabel"
+            >
+              Talk to us
+            </h5>
+          </div>
+          <div class="modal-body">
+            <form action="https://getform.io/f/adrynkoa" method="POST">
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control formInput pl-0"
+                  placeholder="Work email*"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <div class="col mr-4">
+                  <input
+                    type="text"
+                    name="firstName"
+                    class="form-control formInput pl-0"
+                    placeholder="First name*"
+                    required
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="text"
+                    name="lastName"
+                    class="form-control formInput pl-0"
+                    placeholder="Last name*"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label class="d-flex align-items-baseline">
+                  <input type="hidden" name="agreement" value="no" />
+                  <input
+                    type="checkbox"
+                    name="agreement"
+                    value="yes"
+                    checked
+                    class="custom-checkbox"
+                  />
+                  <span class="ml-2" style="color: #838690; font-weight: 500">
+                    I agree to Fyle's terms and conditions, and provide consent
+                    to send me communication.
+                  </span>
+                </label>
+              </div>
+              <button type="submit" class="btn contact-us btn-block">
+                Contact Us
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#contactUsButton")
+          .css("background-color", "pink")
+          .css("color", "white");
+
+        $("#whatWeDoCarousel").on("slide.bs.carousel", function (e) {
+          $(".carousel-indicators li").removeClass("active"); // remove active from current
+
+          const nextIndex = e.relatedTarget.getAttribute("data-slide-to"); // find the next dot to slide to
+          const activeIndicator = $(".carousel-indicators li").eq(nextIndex);
+          activeIndicator.addClass("active"); // mark the dot active
+        });
+
+        /// OUR PROJECT LOGIC
+        $(".inner-div").hover(
+          function () {
+            const newImage = $(this).data("image");
+            $("#ourProject_mainImage").attr("src", newImage);
+            $(this).addClass("highlight"); // Add highlight class
+          },
+          function () {
+            $(this).removeClass("highlight"); // Remove highlight class
+          }
+        );
+
+        /// CONTACT US FORM LOGIC
+        $("#contactUsButton").on("click", function () {
+          $("#contactModal").modal("show");
+        });
+      });
+    </script>
+  </body>
+</html>

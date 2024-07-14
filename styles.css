@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-color: #ff3147;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  color: var(--theme-color);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.heading {
+  color: black;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.heading_big {
+  color: black;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+#hero {
+  padding-bottom: 6rem !important;
+}
+
+#whatWeDo {
+  padding-bottom: 4rem !important;
+}
+
+#whyChoose,
+#growth,
+#ourProject,
+#feedback {
+  padding-bottom: 2rem !important;
+}
+
+/* Hero Section Styles */
+
+.carousel-item {
+  margin-bottom: 20px;
+}
+
+.carousel-indicators {
+  display: flex !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+  margin: 0 !important;
+  gap: 0.5rem !important;
+}
+
+.carousel-indicators li {
+  width: 0.2rem !important;
+  height: 0.2rem !important;
+  border-radius: 100% !important;
+  background: black !important;
+  opacity: 0.7 !important;
+  margin: 0 5px !important;
+  transition: background 0.3s, border 0.3s !important;
+  border: 2px solid transparent !important;
+}
+
+.carousel-indicators li.active {
+  background-color: var(--theme-color) !important;
+  opacity: 1 !important;
+  position: relative !important;
+}
+
+.carousel-indicators li.active::after {
+  content: "";
+  position: absolute !important;
+  background-color: transparent !important;
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+  border-radius: 100% !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%);
+  z-index: 10 !important;
+  border: 2px solid var(--theme-color);
+}
+
+/* Our Project Styles */
+#ourProject_mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.5s ease;
+}
+
+#ourProject #list {
+  height: 100%;
+}
+
+#ourProject .highlight {
+  transition: background 0.5s ease;
+  background: var(--theme-color);
+  color: white;
+}
+
+#ourProject .inner-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.btn-pink {
+  background-color: var(--theme-color) !important;
+  color: white !important;
+  border-radius: 0.1rem !important;
+  letter-spacing: 2px;
+}
+
+.text-pink {
+  color: var(--theme-color);
+}
+
+.text-light-gray {
+  color: lightgray;
+}
+
+#whyChoose #card {
+  font-size: 0.8rem;
+}
+
+.hover-card,
+#whyChoose #card {
+  transition: all 0.4s ease;
+}
+
+.hover-card:hover,
+#whyChoose #card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  cursor: default;
+}
+
+#footer {
+  background-color: var(--theme-color);
+  padding: 5rem;
+}
+
+.modal-dialog {
+  max-width: 600px;
+  margin: 1.75rem auto;
+}
+
+input[type="checkbox"].custom-checkbox {
+  accent-color: var(--theme-color);
+}
+
+button.contact-us {
+  background-color: var(--theme-color) !important;
+  color: white !important;
+}
+
+.formInput {
+  border: none !important;
+  border-bottom: 1px solid lightgray !important;
+  border-radius: 0 !important;
+}
+
+/* image hover overlay styles */
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--theme-color);
+  color: #fff;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.position-relative:hover .hover-overlay {
+  display: flex;
+}
+
+.hover-overlay h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.hover-overlay p {
+  font-size: 0.8rem;
+  font-weight: 100;
+  max-width: 15rem;
+  margin-inline: auto;
+  margin-block: 1rem 3rem;
+}
+
+.hover-overlay > img {
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hover-overlay .btn-custom {
+  background-color: white !important;
+  color: var(--theme-color) !important;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#whyChoose .col-md-3:hover {
+}
